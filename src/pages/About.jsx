@@ -10,7 +10,7 @@ function About() {
             <h2>Who Am I?</h2>
             <p>
               Hello! I'm <strong>Imran Ansari</strong>, a passionate Computer Science student currently pursuing my 
-              <strong> Bachelor of Science (B.Sc) in Computer Application</strong> at <strong>Gosner College, Ranchi</strong>. 
+              <strong> Bachelor of Science (B.Sc) in Computer Application</strong> at <strong>Gossner College, Ranchi</strong>. 
               With a strong academic foundation and active participation in emerging technologies like AI and Model R&D, 
               I'm dedicated to building innovative solutions that make a real impact in the IT industry.
             </p>
@@ -27,7 +27,7 @@ function About() {
                 <div className="timeline-marker">🎓</div>
                 <div className="timeline-content">
                   <h3>Bachelor of Science - Computer Application</h3>
-                  <p><strong>Gosner College, Ranchi</strong></p>
+                  <p><strong>Gossner College, Ranchi</strong></p>
                   <p className="timeline-date">Currently Pursuing</p>
                   <p className="timeline-desc">Focusing on web development, cybersecurity, AI, and software engineering practices</p>
                 </div>
@@ -163,7 +163,7 @@ function About() {
             <ul>
               <li>🐙 GitHub: <a href="https://github.com/imran-0101" target="_blank" rel="noopener noreferrer">@imran-0101</a></li>
               <li>📍 Location: Ranchi, India</li>
-              <li>🎓 Education: BSc Computer Application (Gosner College, Ranchi)</li>
+              <li>🎓 Education: BSc Computer Application (Gossner College, Ranchi)</li>
               <li>🚀 Focus: Web Development, AI Research, Cybersecurity</li>
             </ul>
           </section>

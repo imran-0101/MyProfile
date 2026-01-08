@@ -17,7 +17,7 @@ function Hero({ setCurrentPage }) {
           <p className="hero-subtitle">Full Stack Developer & AI Enthusiast</p>
           
           <p className="hero-description">
-            Computer Science student at Gosner College, Ranchi | Passionate about Web Development, 
+            Computer Science student at Gossner College, Ranchi | Passionate about Web Development, 
             Cybersecurity & AI | Building innovative solutions for real-world problems
           </p>
 
