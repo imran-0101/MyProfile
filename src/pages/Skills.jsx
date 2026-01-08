@@ -54,15 +54,19 @@ function Skills() {
   return (
     <div className="skills">
       <div className="skills-container">
-        <h1>Technical Skills</h1>
-        <p className="skills-intro">
-          A comprehensive set of skills developed through education and hands-on experience in modern web development,
-          AI research, and cybersecurity. Continuously expanding my expertise.
-        </p>
+        <div className="skills-header-section">
+          <h1>Technical Skills</h1>
+          <div className="skills-header-line"></div>
+          <p className="skills-intro">
+            A comprehensive set of skills developed through education and hands-on experience in modern web development,
+            AI research, and cybersecurity. Continuously expanding my expertise.
+          </p>
+        </div>
 
         <div className="skills-grid">
           {skillCategories.map((category, idx) => (
             <div key={idx} className="skill-card">
+              <div className="skill-card-background"></div>
               <div className="skill-header">
                 <span className="skill-icon">{category.icon}</span>
                 <h2>{category.category}</h2>
@@ -92,7 +96,7 @@ function Skills() {
           <h2>Other Competencies</h2>
           <div className="skills-badges">
             {otherSkills.map((skill, idx) => (
-              <span key={idx} className="skill-badge">{skill}</span>
+              <span key={idx} className="skill-badge" data-index={idx}>{skill}</span>
             ))}
           </div>
         </div>

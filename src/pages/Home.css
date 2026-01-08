@@ -140,7 +140,7 @@
 }
 
 .dot.active {
-  background-color: #4ecdc4;
+  background-color: var(--accent-primary);
   transform: scale(1.3);
 }
 

@@ -30,21 +30,25 @@
 }
 
 .logo:hover {
-  color: #4ecdc4;
+  color: var(--accent-primary);
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .profile-photo {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #4ecdc4;
+  border: 2px solid var(--accent-primary);
   object-fit: cover;
   transition: all 0.3s ease;
 }
 
 .profile-photo:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 12px rgba(78, 205, 196, 0.6);
+  box-shadow: 0 0 12px rgba(124, 58, 237, 0.6);
 }
 
 .nav {
@@ -68,12 +72,12 @@
 }
 
 .nav-link:hover {
-  color: #4ecdc4;
-  background-color: rgba(78, 205, 196, 0.05);
+  color: var(--accent-primary);
+  background-color: rgba(124, 58, 237, 0.08);
 }
 
 .nav-link.active {
-  color: #4ecdc4;
+  color: var(--accent-primary);
   font-weight: 600;
 }
 
@@ -84,7 +88,7 @@
   left: 16px;
   right: 16px;
   height: 3px;
-  background: linear-gradient(90deg, #4ecdc4, #45b7d1);
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
   border-radius: 2px;
 }
 
