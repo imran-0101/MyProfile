@@ -47,7 +47,7 @@ function About() {
                 <div className="timeline-marker">🏫</div>
                 <div className="timeline-content">
                   <h3>Matriculation (10th Grade)</h3>
-                  <p><strong>High School, Chiterpoor, Ramgarg</strong></p>
+                  <p><strong>High School, chitarpur, ramgarh</strong></p>
                   <p className="timeline-date">Completed with Distinction</p>
                   <p className="score">Score: <strong>95%</strong> ⭐</p>
                 </div>
@@ -67,7 +67,7 @@ function About() {
               <div className="award-card">
                 <span className="award-icon">⭐</span>
                 <h3>School Excellence Award</h3>
-                <p>Awarded by High School, Chiterpoor for academic excellence and discipline</p>
+                <p>Awarded by High School, chitarpur for academic excellence and discipline</p>
               </div>
 
               <div className="award-card">
