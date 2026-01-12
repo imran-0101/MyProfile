@@ -82,8 +82,8 @@
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--accent-primary);
-  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.1);
+  border-color: #4ecdc4;
+  box-shadow: 0 0 0 3px rgba(78, 205, 196, 0.1);
   transform: translateY(-2px);
 }
 
@@ -95,7 +95,7 @@
 .submit-btn {
   width: 100%;
   padding: 12px 24px;
-  background-color: var(--accent-primary);
+  background-color: #4ecdc4;
   color: white;
   border: none;
   border-radius: 4px;
@@ -106,7 +106,7 @@
 }
 
 .submit-btn:hover {
-  background-color: var(--accent-secondary);
+  background-color: #45b7d1;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
